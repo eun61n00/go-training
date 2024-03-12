@@ -16,7 +16,7 @@ func main() {
 
 
 	// Request a greeting message.
-	message, err := greetings.Hello("")
+	message, err := greetings.Hello("Gladys")
 	// If an error was returned, print it to the console and
 	// exit the program
 	if err != nil {
